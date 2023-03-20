@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+body {
+  background-color: rgb(23, 22, 24);
+  margin: 30px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 60px;
+  margin: 50px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: Righteous;
+  font-weight: 500;
+  font-size: 50px;
+  color: lightblue;
+}
+
+h2 {
+  font-family: Sarala;
+  font-size: 50px;
+  color:lightblue;
+}
+
+p {
+  font-family: Sarala;
+  margin-top: 4px;
+  margin-bottom: 15px;
+  color: rgb(219, 219, 219);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 10px;
+}
+
+.cabecalho {
+  margin-top: 20px;
+  list-style: none;
+  font-family: Sarala;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(130, 206, 206);
+}
+
+img {
+  max-width: 100%;
+}
+
+input {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  color: whitesmoke;
+  font-family: sarala;
+}
+
+.gmail {
+  max-width: 20px;
+  margin-left: 10px;
+}
+
+li:hover {
+  color: rgb(44, 44, 143);
+}
+
+h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
